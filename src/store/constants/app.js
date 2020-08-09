@@ -1,0 +1,1 @@
+export const SYS_INFO = "sys_info" //设备信息

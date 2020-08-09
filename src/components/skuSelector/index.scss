@@ -1,0 +1,215 @@
+.action-sheet-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+    height: 100%;
+    bottom: 0;
+    z-index: 104;
+    .mask {
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .action-bd {
+        position: fixed;
+        bottom: 0;
+        background: #fff;
+        z-index: 100;
+        width: 100%;
+        min-height: 300px;
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+        .btn-close-box {
+            position: absolute;
+            right: 24px;
+            top: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &::before {
+                content: "";
+                position: absolute;
+                top: -30px;
+                right: -30px;
+                bottom: -30px;
+                left: -30px;
+            }
+            .btn-close-icon {
+                width: 44px;
+                height: 44px;
+            }
+        }
+    }
+    .content {
+        max-height: 957px;
+        .hd {
+            padding: 32px 24px 40px 24px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            .goods-img {
+                width: 185px;
+                min-width: 185px;
+                height: 185px;
+                min-height: 185px;
+                border-radius: 8px;
+                background: #f2f2f2;
+            }
+            .info {
+                padding-left: 20px;
+                height: 185px;
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                .price {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+                    .price-current {
+                        font-size: 48px;
+                        color: #ff3533;
+                        .unit {
+                            font-size: 28px;
+                        }
+                    }
+                    .price-origin {
+                        padding-left: 30px;
+                        padding-bottom: 8px;
+                        color: #666;
+                        font-size: 26px;
+                        text-decoration: line-through;
+                    }
+                }
+
+                .stock,
+                .sku {
+                    color: #999;
+                    font-size: 28px;
+                }
+                .stock {
+                    // padding-top: 37px;
+                }
+                .sku {
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+.sku-box {
+    padding: 0 24px;
+    max-height: 456px;
+    min-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    .outStyle {
+        display: flex;
+        flex-direction: column;
+    }
+    .outStyleText {
+        color: #333;
+        font-size: 28px;
+        font-weight: 500;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .typeStyle {
+        padding: 40px 0;
+        font-size: 26px;
+    }
+
+    .unit-cell {
+        float: left;
+        margin-right: 40px;
+    }
+
+    .unit-item {
+        border-radius: 32px;
+        padding: 0 32px;
+        height: 64px;
+        line-height: 64px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        margin-bottom: 24px;
+    }
+
+    .orange {
+        background: #fcdf1f;
+        color: #333;
+    }
+
+    .back {
+        background-color: #f2f2f2;
+        color: #333;
+    }
+
+    .white {
+        background-color: #f2f2f2;
+        color: #ccc;
+    }
+}
+.add-cart-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 32px;
+    height: 80px;
+    padding-bottom: 180px;
+    .selector {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        .decrease,
+        .add {
+            position: relative;
+            width: 44px;
+            min-width: 44px;
+            height: 44px;
+            min-height: 44px;
+            &::before {
+                content: "";
+                position: absolute;
+                top: -30px;
+                right: -30px;
+                bottom: -30px;
+                left: -30px;
+            }
+            .icon {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .counter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 78px;
+            height: 44px;
+            color: #333;
+            font-size: 32px;
+        }
+    }
+}
+
+.add-car-btn {
+    margin-left: auto;
+    width: 186px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #222;
+    font-size: 24px;
+    background: rgba(255, 221, 42, 1);
+    border-radius: 25px;
+}
