@@ -3,4 +3,7 @@
 
 ### 效果演示
 
-[效果演示](http://static.ledouya.com/Y9yErdzy0iXFXoFSybkFsbalhvYarymx.mp4)
+<video id="video" controls="" preload="none">
+      <source id="mp4" src="http://static.ledouya.com/Y9yErdzy0iXFXoFSybkFsbalhvYarymx.mp4" type="video/mp4">
+</video>
+
