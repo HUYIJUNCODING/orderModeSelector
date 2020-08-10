@@ -3,4 +3,4 @@
 
 ### 效果演示
 
-[](http://static.ledouya.com/Y9yErdzy0iXFXoFSybkFsbalhvYarymx.mp4)
+![](http://static.ledouya.com/Y9yErdzy0iXFXoFSybkFsbalhvYarymx.mp4)
