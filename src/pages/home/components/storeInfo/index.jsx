@@ -27,20 +27,20 @@ export default class StoreInfo extends Component {
         this.state = {
             storeInfo:{
                 name: "悠然的奶茶店",
-                mall_logo: "http://static.ledouya.com/20200608/170640_1591586611026.jpg",
+                mall_logo: "http://static.ledouya.com/FtGTeePm_e3MlF6t1MuQv1kBKGm2",
                 telphone: "13510131234",
-                avg_price: "100",
+                avg_price: "25",
                 tags: [
                     "品质优选",
                     "网红好店",
                     "种草基地"
                 ],
                 mall_picture_arr: [
-                    "http://static.ledouya.com/20200608/133208_1591586618389.jpeg"
+                    "http://static.ledouya.com/FmH698s8s-qsqFml2llqefERniDI"
                 ],
                 detailed_address: "西安市碑林区金花南路20号立丰国际4楼",
                 business_time: {
-                    startTime: "07:00",
+                    startTime: "10:00",
                     endTime: "22:00"
                 },
             },
@@ -78,7 +78,7 @@ export default class StoreInfo extends Component {
             <View className= "store-info-container">
                  <View>
                 {/* 自定义导航栏 */}
-                <View className={["top", ceilingHeight > 100 && "is-ceiling"]} style={{backgroundColor: ceilingHeight <= 100? `rgba(252,223,31,${ceilingHeight/100})`: '#FCDF1F'}}>
+                <View className="top" style={{backgroundColor: ceilingHeight <= 100? `rgba(252,223,31,${ceilingHeight/100})`: '#FCDF1F'}}>
                     <View
                         className="box"
                         style={{ height: statusBarHeight + "px" }}

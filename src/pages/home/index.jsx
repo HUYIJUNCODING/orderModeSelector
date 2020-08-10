@@ -49,7 +49,10 @@ export default class Home extends Component  {
     };
 
     componentDidMount() {
-        this.getSysInfo()
+        setTimeout(()=>{
+            this.getSysInfo()
+        },2000)
+       
        
     }
 

@@ -422,9 +422,9 @@ export default class CateringGoods extends Component {
             ></View>
           )}
           <View
-            class="buy-car-popup-content"
+            className="buy-car-popup-content"
             style={{
-              bottom: isShowBuyCarPopup ? 0 : `-950rpx`,
+              bottom: isShowBuyCarPopup ? 0 : '-950rpx',
             }}
           >
             <View className="title" catchtouchmove="true">
