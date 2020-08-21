@@ -1,7 +1,7 @@
 # orderModeSelector
 小程序类似美团外卖点餐列表模式组件,选择器兼容sku,同样适用于零售模式商品
 ### 框架
-* taro(奥特曼之父)
+* taro(泰罗·奥特曼，宇宙警备队总教官，实力最强的奥特曼)
 ### 启动命令
 * npm install -g @tarojs/cli@3.0.5 (yarn global add @tarojs/cli@3.0.5)
 * cd project
